@@ -16,6 +16,8 @@
                 <?php include 'index-nav.php'; ?>
                 <?php include 'carousel.php'; ?>
             </section>
+            <!-- Footer -->
+        <?php include 'footer.php'; ?>
         </div>
     </body>
 </html>

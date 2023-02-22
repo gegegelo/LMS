@@ -181,6 +181,11 @@ height: 40px;
     text-align: center;
     align-items: center;
   }
+
+
+
+
+
 @media only screen and (max-width: 1200px) {
   .fs-36px {
     font-size: 36px !important;

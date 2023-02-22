@@ -31,8 +31,8 @@
 
     <div class="col-md-5 offset-md-1 mb-3">
       <form action="php/subscribe.php" method="POST">
-        <h5>Subscribe to our newsletter</h5>
-        <p class="text-muted">Monthly digest of what's new and exciting from us.</p>
+        <h5 class="text-black">Subscribe to our newsletter</h5>
+        <p class="text-muted">See what's new</p>
         <div class="d-flex flex-column flex-sm-row w-100 gap-2">
           <label for="newsletter1" class="visually-hidden">Email address</label>
           <input id="newsletter1" type="email" name="email" class="form-control" placeholder="Email address">
@@ -43,7 +43,7 @@
   </div>
 
   <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-    <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+    <p>&copy; All rights reserved.</p>
     <ul class="list-unstyled d-flex">
       <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
       <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>

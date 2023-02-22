@@ -19,12 +19,29 @@ body {
 width: 90px;
 height: 40px;   
 }
+/* #image-track > .image{
+  width: 40vmin;
+  height: 56vmin;
+  object-fit: cover;
+  object-position: center;
+}
+#image-track{
+  display: flex;
+  gap: 4vmin;
+  position: absolute; 
+  left: 50%; 
+  top: 50%; 
+  transform: translate(-100%, 50%);
+} */
 
 .border-soft {
     border-radius: 8px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
   }
-  
+.section-padding{
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+}
   .top .my-nav {
     z-index: 2;
     position: absolute;
@@ -44,13 +61,6 @@ height: 40px;
     width: 24em;
     color: white;
     padding: 0.6em 0 0.6em 2.8em;
-  }
-  .top .my-nav form input::-webkit-search-cancel-button {
-    -webkit-appearance: none;
-    height: 20px;
-    width: 20px;
-    cursor: pointer;
-    background-image: url("data:image/svg+xml;utf8,<svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M20 6.91L17.09 4L12 9.09L6.91 4L4 6.91L9.09 12L4 17.09L6.91 20L12 14.91L17.09 20L20 17.09L14.91 12L20 6.91Z' fill='white'/></svg>");
   }
   .top .my-nav form input::-moz-placeholder {
     color: rgba(255, 255, 255, 0.5);
